@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    background-color: rgb(222, 220, 237);
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+    padding: 10px 5%;
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 16px;
+    
+}
+
+li, a {
+    color: black;
+    text-decoration: none;
+}
+
+#header-img {
+    max-width: 5%;
+    cursor: pointer;
+    margin-right: auto;
+        
+}
+
+.nav-links li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+
+nav a:hover {
+    color: rgb(15, 49, 197);
+}
+
+iframe {
+    border: 5x;
+    background-color: grey;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    position: relative;
+    flex: 1;
+    align-items: center;
+    max-width: 550px;
+    min-width: 150px;
+}
+
+body {
+    font-family: calibri;
+    
+}
+
+.main-section {
+    padding-right: 200px;
+    padding-left: 200px;
+    position: relative;
+
+}
+
+ul > li {
+    list-style-position: inside;
+}
+
+li {
+    text-align: center;
+}
+
+.hr-1 {
+    max-width: 562px;
+    height: 3px;
+    background-color: black;
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+
+
+h1, h2, h4 {
+    margin-bottom: -15px;
+    font-family: "Dela Gothic One";
+}
+
+
+#submit {
+    font-family: calibri;
+    background-color:rgb(15, 49, 197);
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    box-shadow: 0;
+    border: none;
+    margin-top: 2px;
+    
+}
+
+#email, #submit {
+    display: block;
+    margin: auto;
+   
+}
+
+#email {
+    max-width: 250px;
+    background-color: rgb(197, 202, 253);
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: "Dela Gothic One";
+}
+
+.product {
+    display: inline-grid;
+    grid-template-columns: auto;
+    place-self: center;
+    row-gap: 5px;
+
+    
+}
+
+.btn {
+    max-width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.size {
+    background-color: rgb(188, 188, 248);
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+
+}

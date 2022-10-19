@@ -16,6 +16,12 @@ header {
     
 }
 
+ol {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
 li, a {
     color: black;
     text-decoration: none;
@@ -120,13 +126,36 @@ h3 {
     font-family: "Dela Gothic One";
 }
 
-.product {
-    display: inline-grid;
-    grid-template-columns: auto;
-    place-self: center;
-    row-gap: 5px;
+#pricing h2 {
+	margin: 0;
+}
 
-    
+.product-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 32px;
+}
+
+.product {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+		align-items: center;
+		border: 1px solid black;
+		padding: 0 0 8px;
+}
+
+.product .price {
+	font-family: "Dela Gothic One";
+	font-size: 24px;
+}
+
+.product button {
+	margin-top: auto;
+}
+
+.product .size {
+	width: 100%;
 }
 
 .btn {

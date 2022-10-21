@@ -14,11 +14,24 @@ header {
     font-family: "Dela Gothic One", sans-serif;
     font-size: 16px;
     
+    
+}
+
+.nav-links, #header {
+    background-color: grey;
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 }
 
 li, a {
     color: black;
     text-decoration: none;
+    font-family: "Dela Gothic One";
 }
 
 #header-img {
@@ -50,7 +63,7 @@ iframe {
     flex: 1;
     align-items: center;
     max-width: 550px;
-    min-width: 150px;
+    min-width: 100px;
 }
 
 body {
@@ -89,6 +102,11 @@ h1, h2, h4 {
     font-family: "Dela Gothic One";
 }
 
+#pricing h2 {
+    margin: 0;
+    margin-bottom: 3px;
+}
+
 
 #submit {
     font-family: calibri;
@@ -98,7 +116,7 @@ h1, h2, h4 {
     font-size: 15px;
     box-shadow: 0;
     border: none;
-    margin-top: 2px;
+    margin: auto;
     
 }
 
@@ -109,9 +127,14 @@ h1, h2, h4 {
 }
 
 #email {
-    max-width: 250px;
-    background-color: rgb(197, 202, 253);
-    color: white;
+    max-width: 200px;
+    background-color: rgb(177, 191, 249);
+    color: black;
+    
+}
+
+div.submit {
+    margin-top: 3px;
 }
 
 h3 {
@@ -121,18 +144,43 @@ h3 {
 }
 
 .product {
-    display: inline-grid;
-    grid-template-columns: auto;
-    place-self: center;
-    row-gap: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    border: 1px solid black;
+    padding: 0 0 8px;
+}
 
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
     
+}
+.product .price {
+    font-family: "Dela Gothic One";
+ 	font-size: 24px;
+ 
+}
+
+.product button {
+    margin-top: auto;
+}
+
+.product .size {
+    width: 100%;
 }
 
 .btn {
     max-width: 100px;
     display: flex;
     justify-content: center;
+    border-color: white;
+    border-radius: 5px;
+    background-color:rgb(15, 49, 197);
+    color: white;
+
 }
 
 .size {

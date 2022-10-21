@@ -2,7 +2,7 @@
 
 * {
     box-sizing: border-box;
-    background-color: rgb(222, 220, 237);
+    
 }
 
 header {
@@ -18,7 +18,7 @@ header {
 }
 
 .nav-links, #header {
-    background-color: grey;
+    background-color: rgb(233, 223, 223);
 }
 
 ol {
@@ -26,7 +26,7 @@ ol {
     padding: 0;
     margin: 0;
 }
-}
+
 
 ol {
 	list-style: none;
@@ -68,12 +68,14 @@ iframe {
     position: relative;
     flex: 1;
     align-items: center;
-    max-width: 550px;
+    max-width: 100%;
     min-width: 100px;
+    aspect-ratio: 16/9;
 }
 
 body {
     font-family: calibri;
+    background-color: rgb(222, 220, 237);
     
 }
 
@@ -103,14 +105,14 @@ li {
 }
 
 
-h1, h2, h4 {
+h1, h4 {
     margin-bottom: -15px;
     font-family: "Dela Gothic One";
 }
 
 #pricing h2 {
     margin: 0;
-    margin-bottom: 3px;
+    margin-bottom: 10px;
 }
 
 

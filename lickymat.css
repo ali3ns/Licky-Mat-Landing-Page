@@ -239,3 +239,8 @@ footer {
 ul li {
     list-style: none;
 }
+
+footer ul {
+	display: flex;
+	gap: 16px;
+}

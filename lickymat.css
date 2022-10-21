@@ -17,8 +17,12 @@ header {
     
 }
 
+input::placeholder {
+    color: black;
+    
+}
 .nav-links, #header {
-    background-color: rgb(233, 223, 223);
+    background-color: rgb(209, 205, 239);
 }
 
 ol {
@@ -37,7 +41,7 @@ ol {
 li, a {
     color: black;
     text-decoration: none;
-    font-family: "Dela Gothic One";
+    
 }
 
 #header-img {
@@ -118,7 +122,7 @@ h1, h4 {
 
 #submit {
     font-family: calibri;
-    background-color:rgb(15, 49, 197);
+    background: linear-gradient(#010585, #193DC3, #9EAFF1);
     color: white;
     border-radius: 5px;
     font-size: 15px;
@@ -135,7 +139,7 @@ h1, h4 {
 }
 
 #email {
-    max-width: 200px;
+    max-width: 240px;
     background-color: rgb(177, 191, 249);
     color: black;
     
@@ -153,6 +157,7 @@ h3 {
 
 #pricing h2 {
 	margin: 0;
+    margin-bottom: 5px;
 }
 
 .product-grid {
@@ -194,9 +199,9 @@ h3 {
     max-width: 100px;
     display: flex;
     justify-content: center;
-    border-color: white;
     border-radius: 5px;
-    background-color:rgb(15, 49, 197);
+    border-color:rgb(209, 205, 239);
+    background: linear-gradient(#010585, #193DC3, #9EAFF1);
     color: white;
 
 }
@@ -207,4 +212,30 @@ h3 {
     margin-top: 5px;
     font-weight: bold;
 
+}
+
+h2 {
+    margin-bottom: 5px;
+    font-family: "Dela Gothic One";
+}
+
+#p-contact {
+    margin-top: -5px;
+}
+
+footer {
+    background-color: rgb(209, 205, 239);
+    color: black;
+    font-family: calibri;
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: column;
+    flex: 1;
+    align-items: flex-end;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+ul li {
+    list-style: none;
 }
